@@ -1,15 +1,26 @@
-public static void main(String[] args) {
-    
-    gameBoard[][] = {
-        {'_','|','_','|','_'},
-        {'_','|','_','|','_'},
-        {'_','|','_','|','_'}
-    };
+/**
+ * morpion
+ */
+public class morpion {
 
-    printBoard(gameBoard)
+    public static void main(String[] args) {
 
-}
+        char[][] gameBoard = {
+                { '_', '|', '_', '|', '_' },
+                { '_', '|', '_', '|', '_' },
+                { ' ', '|', ' ', '|', ' ' }
+        };
 
-public static void printBoard(char [][] gameBoard){
+        printBoard(gameBoard);
 
+    }
+
+    public static void printBoard(char[][] gameBoard) {
+        for (char[] row : gameBoard) {
+            for (char c : row) {
+                System.out.print(c);
+            }
+            System.out.println();
+        }
+    }
 }
