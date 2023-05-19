@@ -1,8 +1,6 @@
 # morpionJava
 projet d'intro a Java (en "recopiant")
 
-BBHHHAAAAAAAAAAAAAAAAAAAAAA
-
 \ ___________ /
  \     |     /
   \    |    /
